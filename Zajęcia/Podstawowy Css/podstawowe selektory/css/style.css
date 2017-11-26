@@ -1,0 +1,39 @@
+/* selektor znacznika */
+
+p {
+    color: orange;
+}
+
+/* selektor po id */
+
+#paragraph {
+    color: blue;
+}
+ /* łączenie selektorów */
+a, span ,div{
+    color: green;
+}
+/* selektor bezpośredniego elementu potomnego */
+li > a {
+    color: red;
+}
+/* selektor elementów potomnych */
+div a {
+    color: chartreuse;
+}
+/* slektor bliskiego rodzeństwa */
+h2+h3{
+    color: hotpink;
+}
+/* selektor rodzenstwa */
+h4 ~ p{
+    color: springgreen;
+}
+/* selektor wykluczający */
+ul > li:not(.last){
+    color: cyan;
+}
+/*     selektor kolejnego elementu potomnego */
+ul>ol:nth-child(2n+1) {
+    color: darkgoldenrod;
+}
