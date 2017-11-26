@@ -1,0 +1,12 @@
+html {
+    font-size: 20px;
+}
+
+#cointainer {
+    font-size: 30px;
+}
+
+#container > div {
+    background-color: rgba(0, 255, 255, 0.6);
+    margin-bottom: 15px;
+}
