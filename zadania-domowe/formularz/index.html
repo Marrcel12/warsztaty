@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Formularz</title>
+</head>
+
+<body>
+    <!--wysyłanie-->
+
+    <form action="https://formspree.io/marcel72press@gmail.com" method="post">
+        <!--Imię-->
+        <label for="imie">Imię:</label><br/>
+        <input type="text" name="Name" id="imie"><br/>
+        <!--Nazwisko--->
+        <label for="nazwisko">Nazwisko:</label><br/>
+        <input type="text" name="Surename" id="nazwisko"><br/>
+        <!--Email--->
+        <label for="Email"> Email:</label><br/>
+        <input type="text" name="_replyto" id="Email"><br/>
+        <!--NumerTel--->
+        <label for="NumerTel"> NumerTel:</label><br/>
+        <input type="text" name="TelNumber" id="NumerTel"><br/>
+        <!--Miasto-->
+        <label for="city">Miasto</label><br/>
+        <select name="city" id="city"><br/>
+        <option>Kraków </option>
+        <option>Warszawa</option>
+        <option>Gdańsk</option>
+        </select><br/>
+        <!--  płeć     -->
+        <label for="mężczyzna">mężczyzna</label>
+        <input type="radio" name="plec" id="male" ><br>
+        <label for="kobieta">kobieta</label>
+        <input type="radio" name="plec" id="female" ><br>
+        <label for="inne">inne</label>
+        <input type="radio" name="plec" id="inne" ><br><br>
+        <!--zgoda-->
+        <label for="zgoda">zgoda na dane osobowe </label>
+        <input type="checkbox" name="zgoda" id="zgoda"><br/>
+        <!--Wiadomość-->
+        <label for="Wiadomosć"> Wiadomość:</label><br/>
+        <textarea maxlength="1000" id="Mess" name="Wiadomość"></textarea> <br>
+         <!--Guzik--->
+        <input type="submit" value="Wyśli"><br/>
+
+    </form>
+</body>
+
+</html>
