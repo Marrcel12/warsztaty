@@ -1,7 +1,52 @@
+/*opis cointainer(a)*/
 #cointainer {
     width: 1000px;
     height: 1000px;
 }
+/*opis kwadratów*/
+.kwadrat {
+    position: relative;
+    width: 25%;
+    height: 25%;
+     display: 
+}
+#czerwony {
+    background-color: red;
+}
+#niebieski {
+    background-color: blue;
+    
+}
+#zielony {
+    background-color: green;
+    
+}
+#zolty {
+    background-color: yellow;
+    
+}
+#czarny{
+    background-color: black;
+    
+}
+#pomaranczowy{
+    background-color: orange;
+    
+}
+#fioletowy{
+    background-color: blueviolet;
+   
+}
+#szary{
+    background-color: gray;
+    
+}
+#rozowe{
+    background-color: pink;
+    
+}
+
+/*opisy kółek*/
 .kolo{
     position: absolute;
     width: 50%;
@@ -13,57 +58,9 @@
     left: 25%;
     top: 25%; 
 }
-.kwadrat {
-    position: relative;
-    width: 25%;
-    height: 25%;
-}
-#czerwony {
-    background-color: red;
-}
-#niebieski {
-    background-color: blue;
-    left: 26%;
-    bottom: 25%;
-}
-#zielony {
-    background-color: green;
-    left: 52%;
-    bottom: 50%;
-}
-#zolty {
-    background-color: yellow;
-    bottom: 49%;
-}
-#czarny{
-    background-color: black;
-    bottom: 74%;
-    left: 26%;
-}
-#pomaranczowy{
-    background-color: orange;
-    bottom: 99%;
-    left: 52%;
-}
-#fioletowy{
-    background-color: blueviolet;
-    bottom: 98%;
-}
-#szary{
-    background-color: gray;
-    bottom: 123%;
-    left: 26%;
-}
-#rozowe{
-    background-color: pink;
-    bottom: 148%;
-    left: 52%;
-}
 #Krozowe{
     background-color:pink;
-    right: 25%;
-    left: 25%;
-    top: 25%;
+    
 }
 #Kszare{
     background-color:gray;
