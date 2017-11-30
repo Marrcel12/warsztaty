@@ -18,11 +18,14 @@
             <fieldset>
                 <legend>Customer Info</legend><br>
                 <!-- Imię-->
-                Name: <input type="text" name="Imię" id="imię" placeholder="Enter your name" required autofocus autocomplete="on"><br>
+                <div class="tabela"> Name: <input type="text" name="Imię" id="imię" placeholder="Enter your name" required autofocus autocomplete="on"></div>
+                <br/>
                 <!--Numer Telefonu-->
-                Telephone: <input type="Tel" name="Telefon" id="Tel" placeholder="Pattern 1-234-567-8910" required autofocus pattern="d-ddd-ddd-dddd" autocomplete="on"><br>
+                <div class="tabela"> Telephone: <input type="Tel" name="Telefon" id="Tel" placeholder="Pattern 1-234-567-8910" required autofocus pattern="d-ddd-ddd-dddd" autocomplete="on">
+                </div><br/>
                 <!--Mail-->
-                Email address <input type="email" name="_replyto" id="Mail" placeholder="Enter your email address" required autocomplete="on">
+                <div class="tabela"> Email address <input type="email" name="_replyto" id="Mail" placeholder="Enter your email address" required autocomplete="on"></div>
+                <br/>
             </fieldset>
         </form>
     </div>
@@ -35,7 +38,7 @@
                 <!--ilość książek-->
                 Quantity (Maximum 5):<input type="number" pattern="d" min=1 max=5 name="ilość ksiązek" id="Quantity">
             </fieldset>
-            <input type="submit" value="Wyśli"><br/>
+            <input type="submit" value="Submit"><br/>
         </form>
 
     </div>
