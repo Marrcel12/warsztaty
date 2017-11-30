@@ -1,0 +1,11 @@
+#title{
+    text-align: left;
+     margin: 0;  
+}
+#title > h1 {
+    color: #0310bf;
+    
+}
+#title> h2{
+    color: #ab9df7;
+}

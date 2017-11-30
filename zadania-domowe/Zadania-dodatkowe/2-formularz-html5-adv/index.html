@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>SimpleForm</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <div id="title">
+        <h1>A Simple Form</h1>
+        <h2>Form Fundamentals</h2>
+    </div>
+    <div id="customerInfo">
+        <form action="https://formspree.io/marcel72press@gmail.com" method="post">
+            <fieldset>
+                <legend>Customer Info</legend><br>
+                <!-- Imię-->
+                Name: <input type="text" name="Imię" id="imię" placeholder="Enter your name" required autofocus autocomplete="on"><br>
+                <!--Numer Telefonu-->
+                Telephone: <input type="Tel" name="Telefon" id="Tel" placeholder="Pattern 1-234-567-8910" required autofocus pattern="d-ddd-ddd-dddd" autocomplete="on"><br>
+                <!--Mail-->
+                Email address <input type="email" name="_replyto" id="Mail" placeholder="Enter your email address" required autocomplete="on">
+            </fieldset>
+        </form>
+    </div>
+    <div id="Books">
+        <!--tytuł książki -->
+        <form action="https://formspree.io/marcel72press@gmail.com" method="post">
+            <fieldset>
+                <legend>Books</legend><br/>
+                <input type="text" name="ksiązka" id="Books" autocomplete="on">
+                <!--ilość książek-->
+                Quantity (Maximum 5):<input type="number" pattern="d" min=1 max=5 name="ilość ksiązek" id="Quantity">
+            </fieldset>
+            <input type="submit" value="Wyśli"><br/>
+        </form>
+
+    </div>
+</body>
+
+</html>
