@@ -3,7 +3,10 @@
     padding: 0;
     box-sizing: border-box;
     text-decoration: none;
-    
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Lato', sans-serif;
+    color: #291f1a;
+    font-weight: 300;
 }
 /*tło*/
 .background{
@@ -27,7 +30,7 @@
  li.menu-item {
  display: inline-block;
  margin-left: 50px;
- margin-top: 8%;
+ margin-top: 7%;
  
 }
 li.menu-item a{
@@ -44,4 +47,8 @@ li.menu-item a{
 }
 .e{
     display: inline;
+}
+.title h2{
+    
+    
 }
