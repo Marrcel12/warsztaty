@@ -2,22 +2,46 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    text-decoration: none;
     
 }
-#background{
+/*tło*/
+.background{
 
-    position: static;
     background-image: url("../img/header-background.jpg");
-    background-attachment: fixed;
     background-position: center;
+    width: 100%;
+    height: 605px;
+    background-size: cover;
 }
+
+/*menu*/
 .menu{
-   display: inline-block;
-   position: absolute;
-   top: auto;
-    bottom: auto;
+   position: fixed;
+   top: 0;
+   right: 5%;   
 }
+.menu  ul {
+    margin: 0px;
+} 
+ li.menu-item {
+ display: inline-block;
+ margin-left: 50px;
+ margin-top: 8%;
+ 
+}
+li.menu-item a{
+        color:white;
+}
+
+
+/*tytuł*/
 .title{
-    position: relative;
+    position: absolute;
     bottom: 50%;
+    right: 50%;
+    
+}
+.e{
+    display: inline;
 }
