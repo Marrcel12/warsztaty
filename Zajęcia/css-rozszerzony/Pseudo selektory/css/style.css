@@ -1,0 +1,20 @@
+*::selection{
+    background-color: red;
+}
+#p1::before {
+    color: red;
+    content: "przed Paragrafem";
+}
+#p2::after{
+    color: antiquewhite;
+    content: "po paragrafie";
+}
+#p3::first-letter{
+    color: blue;
+}
+#p4::first-line{
+    background-color: yellow;
+}
+.selection::selection {
+    background-color: aqua;
+}

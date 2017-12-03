@@ -1,0 +1,38 @@
+
+.box{
+    width: 150px;
+    height: 150px;
+    margin: 10px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#box0{
+    background-color: antiquewhite;
+}
+#box1{
+    background-color: aqua;
+    transition:width 2s 0.2s;
+}
+#box1:hover{
+    width: 300px;
+}
+#box2{
+    background-color: coral;
+    transition:height 2s 0.2s;
+
+}
+#box2:hover{
+    height: 300px;
+}
+
+#box3{
+    background-color: cornflowerblue;
+    transition-property: height, width;
+    transition-duration: 2s;
+    transition-delay: 0.2s;
+}
+#box3:hover{
+    width: 300px;
+    height: 300px;
+}

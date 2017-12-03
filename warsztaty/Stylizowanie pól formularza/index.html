@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Formularz</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <!--wysyłanie-->
+<div id="cointainer">
+    <form action="https://formspree.io/marcel72press@gmail.com" method="post">
+        
+        <!--Imię-->
+        <div class="label"><label for="imie">Imię:</label></div>
+        <input type="text" name="Name" id="imie">
+        
+        <!--Nazwisko--->
+        <div class="label"><label for="nazwisko">Nazwisko:</label></div>
+        <input type="text" name="Surename" id="nazwisko">
+        
+        <!--Email--->
+        <div class="label"><label for="Email"> Email:</label></div>
+        <input type="email" name="_replyto" id="Email">
+        
+        <!--NumerTel--->
+        <div class="label"><label for="NumerTel"> NumerTel:</label></div>
+        <input type="tel" name="TelNumber" id="NumerTel">
+        
+        <!--Miasto-->
+        <div class="label"><label for="city">Miasto</label></div>
+        <select name="city" id="city">
+        <option>Kraków </option>    
+        <option>Warszawa</option>
+        <option>Gdańsk</option>
+        </select><br/>
+        
+        <div class="label">Wybierz pleć:</div>
+        
+        <!-- płeć  -->
+        <div class="plec">
+        <input type="radio" name="men" id="men" value="mężczyzna">
+        <label for="men">Mężczyzna</label><br/>
+        </div>
+        
+        <div class="plec">
+            <input type="radio" name="female" id="female" value="kobieta"> 
+            <label for="female">Kobieta</label></div>
+        
+        <!--Wiadomość-->
+             <div class="label"><label for="Wiadomosć"> Wiadomość:</label></div>
+        <textarea maxlength="1000" id="Mess" name="Wiadomość"></textarea><br/>
+        
+        <!--zgoda-->
+             <input type="checkbox" name="zgoda" id="zgoda"> 
+             <label  class="zgoda"for="zgoda">Wyrażam zgodę na przetwarzanie moich danych osobowych </label><br/>    
+        
+        <!--Guzik--->
+             <input type="submit" value="Send">
+
+    </form>
+    </div>
+</body>
+
+</html>

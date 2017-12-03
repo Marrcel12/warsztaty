@@ -1,0 +1,32 @@
+.link1:link{
+    text-decoration: none;
+    color: red;
+    
+}
+.link1:visited{
+    color: pink;
+}
+#zmiana:target{
+    color:crimson;
+}
+#zmiana{
+    color: green;
+}
+.button:link{
+    text-decoration: none;
+    color: yellow;
+}
+
+.button:hover{
+    background-color: lightblue;
+    color: grey;
+}
+.tabelka div:nth-child(even){
+    background-color: pink;
+}
+.tabelka div:nth-child(odd){
+    background-color: bisque;
+}
+.tabelka div:nth-child(5n+1){
+    background-color: olive;
+}
