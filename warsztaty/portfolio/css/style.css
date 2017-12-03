@@ -102,12 +102,14 @@ span#surename {
 /*O mnie obrazek*/
 .MyPhoto{
     position: relative;
-    left: 15%
+    left: 15%;
     top: 24%;
     width: 254px;
     height: 288px;
     border-style: solid;
-    border-bottom-color: white;
-    border-radius: 1%;
+    border-color: white;
+    border-width: 15px;
+    border-radius: 4%;
+    float: left;
     
 }
