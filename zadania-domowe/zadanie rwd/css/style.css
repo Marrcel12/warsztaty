@@ -10,8 +10,11 @@
 }
 #cointainer{
     background-image: url(man-1.jpg);
-    height: 100%;
-    width: 1000px;
+    height: 100vw;
+    width: 100vw;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
 }
 
 }
