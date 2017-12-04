@@ -6,6 +6,7 @@
     <title>Portfolio-Marcel Kamiński</title>
     <link rel="stylesheet" href="css/style.css">
     <link href="https://fonts.googleapis.com/css?family=Lato|Roboto:100,200,300,400,500" rel="stylesheet">
+    <link rel="stylesheet" href="font-awesome-4.7.0/css/font-awesome.min.css">
 </head>
 
 <body>
@@ -47,27 +48,43 @@
         </content>
         <article class="picDescription"> <span class="description" id="htmlDesc">HTML</span> <span class="description" id="css3Desc">CSS3</span> <span class="description" id="JavaScriptDesc">JavaScript</span> <span class="description" id="JQueryDesc">JQuery</span></article>
     </section>
-    
+    <!--portfolio-->
     <section id="portfolio">
-       <header id="headerPortfolio"><span>Moje <span class="green">Portfolio</span></span></header>
-       <div class="picportfolio">
-           <div class="picCv" id="firstpic"><img src="img/portfolio1.jpg" alt="zdjęcie1"></div>
-           <div class="picCv" id="secondpic"><img src="img/portfolio2.jpg" alt="zdjęcie2"></div>
-           <div class="picCv" id="thirthepic"><img src="img/portfolio4.jpg" alt="zdjęcie3"></div>
-       </div>
+        <header id="headerPortfolio"><span>Moje <span class="green">Portfolio</span></span>
+        </header>
+        <div class="picportfolio">
+            <div class="picCv" id="firstpic"><span id="lama">Lama</span><img src="img/portfolio1.jpg" alt="zdjęcie1"></div>
+            <div class="picCv" id="secondpic"><img src="img/portfolio2.jpg" alt="zdjęcie2"></div>
+            <div class="picCv" id="thirthepic"><img src="img/portfolio4.jpg" alt="zdjęcie3"></div>
+        </div>
     </section>
-    
+    <!--contact-->
     <section id="contact">
-            <header id="headerconctact"><span class="name1">Marcel<span class="green">Kamiński</span></span></header>
-            <div id="contactInfo">
+        <div id="leftsidecontact">
+        <header id="headerconctact"><span class="name1">Marcel<span class="green">Kamiński</span></span>
+        </header>
+        <div id="contactInfo">
             <p class="fonts">ul.Mostowa 6/13</p>
             <p class="fonts">31-061</p>
-                <br/>
+            <br/>
             <p class="fonts">tel.538-106-323</p>
-            <p class="fonts">e-mail:<span id="mail">marcel72press@gmail.com</span></p>
-            </div>
+            <p class="fonts">e-mail: <a href="mailto:marcel72press@gmail.com"> marcel72press@gmail.com</a></p>
+        </div>
+        <div id="socialIcons">
+            <div class="social"><a href="https://www.facebook.com/"><i class="fa fa-facebook" aria-hidden="true"></i></a></div>
+            <div class="social"><a href="https://www.google.com/"><i class="fa fa-google-plus" aria-hidden="true"></i></a></div>
+            <div class="social"><a href="https://twitter.com/"><i class="fa fa-twitter" aria-hidden="true"></i></a></div>
+            <div class="social"><a href="https://pl.linkedin.com/"><i class="fa fa-linkedin" aria-hidden="true"></i></a></div>
+        </div>
+        </div><div id="rightsidecontact">
+            <form action="https://formspree.io/marcel72press@gmail.com" method="post">
+                <input class="pole" type="text" name="ImięInazwisko" id="NS" placeholder="Imię i Nazwisko" required autofocus autocomplete="on"><br/>
+                <input class="pole" type="email" name="_replyto" id="Mail" placeholder="E-mail" required autocomplete="on"><br/>
+                <textarea maxlength="1000" id="Mess" name="Wiadomość" placeholder="Treść wiadomości"></textarea><br/>
+                 <input id="button" type="submit" value="Wyśli"><br/>
+            </form>
+        </div>
     </section>
-
 </body>
 
 </html>
