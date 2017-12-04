@@ -24,6 +24,15 @@
         padding: 0;
         box-sizing: border-box;
     }
+#cointainer{
+    background-image: url(man-2.jpg);
+    height: 100vw;
+    width: 100vw;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+}
+    
 
 
 }
