@@ -1,0 +1,47 @@
+@media (min-width: 992px) and (max-width:1169px) {
+    #cointainer {
+
+        height: 70vh;
+        width: 100vw;
+    }
+    #picture {
+        background-image: url(man-2.jpg);
+     background-size: contain;
+     background-repeat: no-repeat;
+     background-position: center;
+     background-attachment: fixed;
+     position: relative;
+    }
+    .title {
+    margin-left: 60%;
+    margin-top: -20%;
+    }
+
+}
+
+
+
+
+@media (max-width: 991px) {
+
+    #cointainer {
+
+        height: 50vh;
+        width: 100vw;
+    }
+    #picture {
+     background-image: url(man-1.jpg);
+     background-size: contain;
+     background-repeat: no-repeat;
+     background-position: center;
+     background-attachment: fixed;
+     position: relative;
+    }
+    .title {
+    margin-left: 30%;
+    margin-top: 50%;
+    color: #000000;
+
+    }
+
+}

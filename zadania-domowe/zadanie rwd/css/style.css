@@ -1,38 +1,32 @@
+ * {
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+ }
 
 
-@media (min-width:1170px){
-    * {
-        margin: 0;
-        padding: 0;
-        box-sizing: border-box;
-    }
+ #cointainer {
+     height: 100vh;
+     width: 100vw;
+ }
 
-}
-#cointainer{
-    background-image: url(man-1.jpg);
-    height: 100vh;
-    width: 100vw;
-    background-repeat: no-repeat;
-    background-position: center;
-    background-attachment: fixed;
-}
-
-}
-@media (min-width:992px) and (max-width:1170px){
-    * {
-        margin: 0;
-        padding: 0;
-        box-sizing: border-box;
-    }
-#cointainer{
-    background-image: url(man-2.jpg);
-    height: 100vh;
-    width: 100vw;
-    background-repeat: no-repeat;
-    background-position: center;
-    background-attachment: fixed;
-}
-    
+ #picture {
+     height: 100%;
+     background-image: url(man-1.jpg);
+     background-size: contain;
+     background-repeat: no-repeat;
+     background-position: center;
+     background-attachment: fixed;
+     position: relative;
+ }
 
 
-}
+ .title {
+     position: absolute;
+     left: 0;
+     bottom: 50%;
+     top: 50%;
+     margin-left: 2%;
+     color: white;
+
+ }
