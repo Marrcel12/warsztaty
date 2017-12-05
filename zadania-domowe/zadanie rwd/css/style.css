@@ -1,32 +1,55 @@
- * {
-     margin: 0;
-     padding: 0;
-     box-sizing: border-box;
- }
+body{
+	margin: 0;
+}
+@media only screen and (max-width: 992px) {
+	.container{
+		height: 40vh;
+		background-image: url('man-1.jpg');
+		background-size: 100%;
+		background-repeat: round;
+	}
+	.title{
+		padding-top: 40vh;
+		text-align: center;
+		margin-top: 0
+	}
+	
 
+}
+@media only screen and (min-width: 992px) {
+	.container{
+		height: 70vh;
+		background-image: url('man-2.jpg');
+		background-size: 100%;
+		background-repeat: round;
+	}
+	.title{
+		padding-top: 10vh;
+		padding-left: 55%;
+		margin-top: 0;
+		color: white;
+	}
+	
 
- #cointainer {
-     height: 100vh;
-     width: 100vw;
- }
+}
 
- #picture {
-     height: 100%;
-     background-image: url(man-1.jpg);
-     background-size: contain;
-     background-repeat: no-repeat;
-     background-position: center;
-     background-attachment: fixed;
-     position: relative;
- }
+@media only screen and (min-width: 1170px) {
+	.container{
+		height: 100vh;
+		background-image: url('man-1.jpg');
+		background-size: 100%;
+		background-repeat: round;
+	}
+	.title{
+		padding-top: 50vh;
+		padding-left: 5%;
+		margin-top: 0;
+		color: white;
+	}
+	
 
+}
 
- .title {
-     position: absolute;
-     left: 0;
-     bottom: 50%;
-     top: 50%;
-     margin-left: 2%;
-     color: white;
-
- }
+.title{
+	font-weight: bolder;
+}
