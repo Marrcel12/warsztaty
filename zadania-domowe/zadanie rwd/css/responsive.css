@@ -1,47 +1,31 @@
-@media (min-width: 992px) and (max-width:1169px) {
-    #cointainer {
-
-        height: 70vh;
-        width: 100vw;
-    }
-    #picture {
-        background-image: url(man-2.jpg);
-     background-size: contain;
-     background-repeat: no-repeat;
-     background-position: center;
-     background-attachment: fixed;
-     position: relative;
-    }
-    .title {
-    margin-left: 60%;
-    margin-top: -20%;
-    }
+@media only screen and (max-width: 992px) {
+	.container{
+		height: 50vh;
+		background-image: url('../img/man-1.jpg');
+		background-size: cover;
+		background-repeat: no-repeat;
+	}
+	.title{
+		padding-top: 40vh;
+		text-align: center;
+		margin-top: 0;
+	}
+	
 
 }
-
-
-
-
-@media (max-width: 991px) {
-
-    #cointainer {
-
-        height: 50vh;
-        width: 100vw;
-    }
-    #picture {
-     background-image: url(man-1.jpg);
-     background-size: contain;
-     background-repeat: no-repeat;
-     background-position: center;
-     background-attachment: fixed;
-     position: relative;
-    }
-    .title {
-    margin-left: 30%;
-    margin-top: 50%;
-    color: #000000;
-
-    }
+@media only screen and (min-width: 992px) and (max-width: 1170px) {
+	.container{
+		height: 70vh;
+		background-image: url('../img/man-2.jpg');
+		background-size: cover;
+		background-repeat: no-repeat;
+	}
+	.title{
+		padding-top: 10vh;
+		padding-left: 55%;
+		margin-top: 0;
+		color: white;
+	}
+	
 
 }

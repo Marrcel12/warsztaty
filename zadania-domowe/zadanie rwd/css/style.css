@@ -1,39 +1,7 @@
 body{
 	margin: 0;
 }
-@media only screen and (max-width: 992px) {
-	.container{
-		height: 40vh;
-		background-image: url('man-1.jpg');
-		background-size: 100%;
-		background-repeat: round;
-	}
-	.title{
-		padding-top: 40vh;
-		text-align: center;
-		margin-top: 0
-	}
-	
 
-}
-@media only screen and (min-width: 992px) {
-	.container{
-		height: 70vh;
-		background-image: url('man-2.jpg');
-		background-size: 100%;
-		background-repeat: round;
-	}
-	.title{
-		padding-top: 10vh;
-		padding-left: 55%;
-		margin-top: 0;
-		color: white;
-	}
-	
-
-}
-
-@media only screen and (min-width: 1170px) {
 	.container{
 		height: 100vh;
 		background-image: url('man-1.jpg');
@@ -45,11 +13,9 @@ body{
 		padding-left: 5%;
 		margin-top: 0;
 		color: white;
+        	font-weight: bolder;
+
 	}
 	
 
-}
 
-.title{
-	font-weight: bolder;
-}
