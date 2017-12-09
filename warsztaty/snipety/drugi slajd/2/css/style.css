@@ -1,0 +1,45 @@
+*{
+    background-color: aqua;
+    margin: 0;
+}
+body{
+    height:100vh;
+    width: 100vw;
+    position: relative;
+}
+.picture{
+    position: absolute;
+    height: 0%;
+    width: 100%;
+    background-image: url("../img/pexels-photo-126407.jpeg");
+    background-position: center;
+    animation-name: picture;
+    animation-duration: 3s;
+    animation-iteration-count: 1;
+}
+
+.color{
+    position: absolute;
+    height: 0%;
+    width: 100%;
+    background-color: violet;
+    bottom: 0;
+    animation-name: picture;
+    animation-duration: 3s;
+    animation-iteration-count: 1;
+    
+}
+
+
+@keyframes picture{
+    0%{height: 0%}
+    100%{height: 50%}
+   }
+
+
+.color{
+    height: 50%;
+}
+.picture{
+    height: 50%;
+}

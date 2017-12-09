@@ -1,0 +1,6 @@
+.rainbow{
+    height: 400px;
+    width: 100%;
+    background: linear-gradient(to right, bisque,yellow, orange, red, violet, green, blue, bisque);
+    
+}

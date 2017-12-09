@@ -1,0 +1,36 @@
+*{
+    quotes: "\0022" "\0022";
+    margin: 10px;
+}
+q:after {
+    content: close-quote;
+}
+
+q:before {
+    content: open-quote;
+}
+
+blockquote:after {
+    content: close-quote;
+}
+
+blockquote:before {
+    content: open-quote;
+}
+
+q[lang*="eng"]:before {
+
+    content: "*";
+}
+
+q[lang*="eng"]:after {
+    content: "*";
+}
+
+blockquote[lang*="eng"]:before {
+    content: "*";
+}
+
+blockquote[lang*="eng"]:after {
+    content: "*";
+}

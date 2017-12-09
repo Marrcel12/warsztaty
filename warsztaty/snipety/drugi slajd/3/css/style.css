@@ -1,0 +1,65 @@
+* {
+    margin: 0;
+
+}
+
+#maincontainer {
+    height: 100vh;
+    position: relative;
+}
+
+.content1 {
+    position: relative;
+    height: 25vh;
+    background-color: burlywood;
+    text-align: center;
+    padding-top: 10px;
+}
+
+.backgroundParalax1 {
+    height: 100vh;
+    background-image: url("../img/Cat-rolling-GettyImages-165893132-58ac5ef05f9b58a3c90a144f.jpg");
+    background-position: center;
+    background-size: cover;
+        background-attachment: fixed;
+
+}
+
+
+
+
+.content2 {
+    position: relative;
+    height: 50vh;
+    background-color: burlywood;
+    text-align: center;
+    padding-top: 10px;
+}
+
+.backgroundParalax2 {
+    height: 100vh;
+    background-image: url("../img/06-train-cat-shake-hands.jpg");
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+
+
+
+.content3 {
+    position: relative;
+    height: 50vh;
+    background-color: burlywood;
+    text-align: center;
+    padding-top: 10px;
+}
+
+.backgroundParalax3 {
+    height: 100vh;
+    background-image: url("../img/pexels-photo-177809.jpeg");
+    background-position: center;
+    background-size: cover;
+        background-attachment: fixed;
+
+}

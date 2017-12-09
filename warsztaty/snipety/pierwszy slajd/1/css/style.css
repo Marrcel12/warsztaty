@@ -1,0 +1,16 @@
+.parent{
+    width: 250px;
+    height: 250px;
+    background-color: yellow;
+    position: relative;
+    float: left;
+    margin-right: 50px;
+}
+.child{
+    position: absolute;
+    width: 50%;
+    height: 50%;
+    background-color: bisque;
+    left: 25%;
+    top: 25%;
+}

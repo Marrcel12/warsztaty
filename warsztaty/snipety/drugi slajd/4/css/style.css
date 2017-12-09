@@ -1,0 +1,15 @@
+*{
+    margin: 0;
+}
+.box{
+    background-color: aqua;
+    height: 50vh;
+    width: 26vw;
+    margin-left: 37vw;
+    transition:3s;
+
+}
+.box:hover{
+    transform: rotateY(180deg);
+    background-color: red;    
+}

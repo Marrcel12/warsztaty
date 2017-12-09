@@ -1,0 +1,6 @@
+*{
+    background-color: bisque;    
+}
+::-webkit-input-placeholder { color:white; }
+::-moz-placeholder { color:white; } /* firefox 19+ */
+:-ms-input-placeholder { color:white; } /* ie */
