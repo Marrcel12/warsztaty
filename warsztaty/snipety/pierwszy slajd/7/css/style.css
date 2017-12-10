@@ -2,9 +2,9 @@
     text-decoration: none;
     color: black;
 }
-a[href*="doc"] {
+a[href$="doc"] {
     color: green;
 }
-a[href*="docx"]{
+a[href$="docx"]{
     color: red;
 }

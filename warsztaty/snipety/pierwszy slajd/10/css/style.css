@@ -1,16 +1,17 @@
 *{
     margin: 0;
-    
+    box-sizing: border-box;
     
 }
 .picture{
+    margin-left: 35%;
     height: 400px; 
     width: 400px;
     background-image: url("../img/A-fluffy-cat-looking-funny-surprised-or-concerned.jpg");
     background-size: cover;
     background-repeat: no-repeat;
      background-position: center;
-    
+    border: red 2px solid;
 }
 .picture:hover{
      background-size: 200% 200%;

@@ -3,7 +3,7 @@
     height: 250px;
     background-color: yellow;
     position: relative;
-    float: left;
+    display: inline-block;
     margin-right: 50px;
 }
 .child{

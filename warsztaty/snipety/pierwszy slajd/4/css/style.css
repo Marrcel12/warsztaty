@@ -1,7 +1,14 @@
 *{
     margin: 0;
+    padding: 0;
 }
-.video{
-    width: 100vw;
+.cointainer{
+    height: 100vh;
+    width: 100%;
 
+}
+video{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
 }

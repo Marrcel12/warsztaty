@@ -1,31 +1,64 @@
 *{
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
-coinatiner{
-   
-}
-.pola{
+#coinatiner{
+    width: 100vw;
+    overflow: hidden;
     
-    width: 24%    ;
-    height: 100vh;
-    display: inline-block;
-}
-.czerwone{
-    background-color: red;
-  
-}
-.żółte{
-    background-color: yellow;
-    
-}
-.zielone{
-    background-color: green;
    
 }    
-.pomarańczowe{
+.pola{
+    
+    width: 25%;
+    height: 100vh;
+   float: left;   
+    
+    
+    
+}
+.red{
+    background-color: red;
+    background-image: url("../img/1829091_Gdansk-Zuraw.jpg");
+    background-position:bottom;
+    background-repeat: no-repeat;
+    background-size: 120% 120%;
+}
+.yellow{
+    background-color: yellow;
+    background-image: url("../img/_src_12688-jak_robic_ostre_zdjecia_01.jpg");
+    background-position:bottom;
+    background-repeat: no-repeat;
+    background-size: 120% 120%;
+   
+}
+.green{
+    background-color: green;
+   background-image: url("../img/rece-wioslarz.jpg");
+    background-position:bottom;
+    background-repeat: no-repeat;
+    background-size: 120% 120%;
+   
+}    
+.orange{
     background-color: orange;
+    background-image: url("../img/z22552764V.jpg");
+    background-position:bottom;
+    background-repeat: no-repeat;
+    background-size: 120% 120%;
+     
+   }
+
+
+.pola:hover {
+    transform:scale(1.2);
+     background-size: 100% 100%;
 }
-.pola:hover{
-    width: 30%;
-}
+
+
+
+
+
+
+

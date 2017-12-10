@@ -1,6 +1,47 @@
-*{
-    background-color: bisque;    
+* {
+    background-color: skyblue;
+    margin: 0;
+
 }
-::-webkit-input-placeholder { color:white; }
-::-moz-placeholder { color:white; } /* firefox 19+ */
-:-ms-input-placeholder { color:white; } /* ie */
+
+body {
+    height: 100vh;
+    width: 100%;
+}
+
+.element {
+    width: 50px;
+    height: 50px;
+    background-color: white;
+    display: inline-block;
+    margin: 20px;
+    position: absolute;
+
+}
+
+.element1 {
+    right: 40%;
+    bottom: 50%;
+    animation-name: rotacja;
+    animation-duration: 3sec;
+    animation-iteration-count: infinite;
+    animation-timing-function:ease;
+}
+
+.element2 {
+    right: 60%;
+    bottom: 50%;
+    animation-name: rotacja;
+    animation-duration: 3sec;
+    animation-iteration-count: infinite;
+    animation-timing-function:ease;
+
+}
+
+
+@keyframes rotacja {
+    from { transform: rotate(0deg);    
+    }
+        to { transform: rotate(180deg);
+    } 
+}
