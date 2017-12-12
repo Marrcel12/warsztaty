@@ -1,64 +1,69 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-size: 0;
 }
-#coinatiner{
+
+#coinatiner {
     width: 100vw;
     overflow: hidden;
-    
-   
-}    
-.pola{
-    
+    position: relative;
+
+
+
+}
+
+.pola {
+
     width: 25%;
     height: 100vh;
-   float: left;   
-    
-    
-    
+    float: left;
+    transition: all 0.1s linear;
+
+
 }
-.red{
+
+.red {
     background-color: red;
     background-image: url("../img/1829091_Gdansk-Zuraw.jpg");
-    background-position:bottom;
+    background-position: bottom;
     background-repeat: no-repeat;
     background-size: 120% 120%;
 }
-.yellow{
+
+.yellow {
     background-color: yellow;
     background-image: url("../img/_src_12688-jak_robic_ostre_zdjecia_01.jpg");
-    background-position:bottom;
+    background-position: bottom;
     background-repeat: no-repeat;
     background-size: 120% 120%;
-   
+
 }
-.green{
+
+.green {
     background-color: green;
-   background-image: url("../img/rece-wioslarz.jpg");
-    background-position:bottom;
+    background-image: url("../img/rece-wioslarz.jpg");
+    background-position: bottom;
     background-repeat: no-repeat;
     background-size: 120% 120%;
-   
-}    
-.orange{
+
+}
+
+.orange {
     background-color: orange;
     background-image: url("../img/z22552764V.jpg");
-    background-position:bottom;
+    background-position: bottom;
     background-repeat: no-repeat;
     background-size: 120% 120%;
-     
-   }
+    
+
+}
 
 
 .pola:hover {
-    transform:scale(1.2);
-     background-size: 100% 100%;
+    width: 40%;
 }
-
-
-
-
-
-
-
+body:hover .pola:not(:hover){
+    width: 20%;
+}
