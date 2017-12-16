@@ -1,0 +1,32 @@
+.box {
+    height: 300px;
+    width: 300px;
+    position: relative;
+    display: inline-block;
+    margin: 20px;
+}
+
+.box-in {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    transition: all 0.5s;
+}
+
+.box-front {
+    background: orange;
+    backface-visibility: hidden;
+    z-index: 1;
+}
+
+.box-back {
+    background: blue;
+}
+
+.box:hover .box-front{
+    transform: rotateY(180deg);
+}
+
+.box:hover .box-back{
+    transform: rotateY(180deg);
+}

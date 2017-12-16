@@ -1,0 +1,23 @@
+q, blockquote {
+    quotes: '\0022' '\0022';
+}
+
+q:before, blockquote:before {
+    content: open-quote;
+}
+
+q:after, blockquote:after {
+    content: close-quote;
+}
+
+q[lang*='en'], blockquote[lang*='en'] {
+    quotes: '*' '*';
+}
+
+q[lang*='en']:before, blockquote[lang*='en']:before {
+    content: open-quote;
+}
+
+q[lang*='en']:after, blockquote[lang*='en']:after {
+    content: close-quote;
+}

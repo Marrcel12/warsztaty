@@ -1,0 +1,15 @@
+body {
+    margin: 0;
+}
+
+#content {
+    margin-bottom: 50px;
+}
+
+footer {
+    height: 50px;
+    background-color: orchid;
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+}

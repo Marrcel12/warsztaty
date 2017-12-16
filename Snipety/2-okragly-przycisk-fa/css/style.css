@@ -1,0 +1,19 @@
+.circle-button {
+    text-decoration: none;
+    background-color: darkturquoise;
+    border: 1px solid darkturquoise;
+    border-radius: 50%;
+    height: 100px;
+    width: 100px;
+    display: inline-block;
+    text-align: center;
+    color: #fff;
+    font-size: 50px;
+    line-height: 100px;
+    transition: all 0.4s;
+}
+
+.circle-button:hover {
+    background-color: #fff;
+    color: darkturquoise;
+}
