@@ -5,7 +5,7 @@ body{
 	.container{
 		height: 100vh;
 		background-image: url('man-1.jpg');
-		background-size: 100%;
+		background-size: cover;
 		background-repeat: round;
 	}
 	.title{
