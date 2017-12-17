@@ -39,3 +39,4 @@
 console.log(jsonOsoby.Osoby[1].imie);
 
 jsonOsoby.Osoby[1].zainteresowania.forEach(function(element, index){console.log(element.nazwa);});
+jsonOsoby.Osoby.forEach(function(element, index){console.log(element.imie);});
