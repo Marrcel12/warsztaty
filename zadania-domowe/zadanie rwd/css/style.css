@@ -6,7 +6,7 @@ body{
 		height: 100vh;
 		background-image: url('man-1.jpg');
 		background-size: cover;
-		background-repeat: round;
+		background-repeat: no-repeat;
 	}
 	.title{
 		padding-top: 50vh;
