@@ -22,58 +22,53 @@ body{
 
 
 
-#dziesiec, #dziewiec, #osiem, #siedem, #szesc, #piec, #cztery, #trzy, #dwa, #jeden, #tekst {
+.odliczanie, #tekst {
     visibility: hidden;
 }
-
-#dziesiec{
+.odliczanie{
     animation: 1s fadeIn;
     animation-fill-mode: forwards;
 }
 
-#dziewiec{
+.liczba10{
     animation: 1s fadeIn;
     animation-fill-mode: forwards;
+}
+
+.liczba9{
+    
     animation-delay: 1s;
 }
-#osiem{
-    animation: 1s fadeIn;
-    animation-fill-mode: forwards;
+.liczba8{
+    
     animation-delay: 2s;
 }
-#siedem{
-    animation: 1s fadeIn;
-    animation-fill-mode: forwards;
+.liczba7{
+  
     animation-delay: 3s;
 }
-#szesc{
-    animation: 1s fadeIn;
-    animation-fill-mode: forwards;
+.liczba6{
+
     animation-delay: 4s;
 }
-#piec{
-    animation: 1s fadeIn;
-    animation-fill-mode: forwards;
+.liczba5{
+    
     animation-delay: 5s;
 }
-#cztery{
-    animation: 1s fadeIn;
-    animation-fill-mode: forwards;
+.liczba4{
+    
     animation-delay: 6s;
 }
-#trzy{
-    animation: 1s fadeIn;
-    animation-fill-mode: forwards;
+.liczba3{
+    
     animation-delay: 7s;
 }
-#dwa{
-    animation: 1s fadeIn;
-    animation-fill-mode: forwards;
+.liczba2{
+    
     animation-delay: 8s;
 }
-#jeden{
-    animation: 1s fadeIn;
-    animation-fill-mode: forwards;
+.liczba1{
+    
     animation-delay: 9s;
 }
 #tekst{
