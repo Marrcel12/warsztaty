@@ -2,12 +2,30 @@ body {
     margin: 0;
 }
 
+<<<<<<< HEAD
 .container {
     height: 100vh;
     background-image: url('man-1.jpg');
     background-size: cover;
     background-repeat: no-repeat;
 }
+=======
+	.container{
+		height: 100vh;
+		background-image: url('man-1.jpg');
+		background-size: cover;
+		background-repeat: no-repeat;
+	}
+	.title{
+		padding-top: 50vh;
+		padding-left: 5%;
+		margin-top: 0;
+		color: white;
+        	font-weight: bolder;
+
+	}
+	
+>>>>>>> master
 
 .title {
     padding-top: 50vh;
