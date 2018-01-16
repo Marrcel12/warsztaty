@@ -11,7 +11,7 @@ h1{
 .fa{
     color: #ff00006b;
 }
-.fa:hover{
+.fa{
     cursor: pointer;
     color: red;
     animation: resize 2s infinite;
