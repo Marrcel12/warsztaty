@@ -8,7 +8,8 @@ for(var i=stringLenght; i>=0; i-- ){
   
     var index=string.charAt(i);
     array.push(index);
-    console.log(array);
+    
 }
+    console.log(array.join());
 
     

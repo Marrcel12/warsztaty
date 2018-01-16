@@ -10,4 +10,4 @@ for(var i=0; i<=stringLenght; i++ ){
     array.push(index);
    
 }
-console.log(array.sort());
+console.log(array.sort().join());
