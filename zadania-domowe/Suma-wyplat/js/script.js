@@ -1,13 +1,16 @@
  $(function () {
-     var sum =0;
-     $('#count-sum').click(function () {
-    $(".salary").each(function(){
-        
-     sum= sum+ parseInt($(this).text());
-       $("#sum").text(sum); 
-    })
-         
-         });
-    
-     });    
-// });
+   
+
+
+     $('#count-sum').click(function () {sum=0;
+         $(".salary").each(function () {
+            
+             sum = sum + parseInt($(this).text());
+             $("#sum").text("");
+             $("#sum").text(sum);
+         })
+
+     });
+
+ });
+
