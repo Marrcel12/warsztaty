@@ -9,4 +9,11 @@ if($(window).scrollTop() >= 50) {
             $("#main-nav").removeClass("scroll");
         }
     });
+    $("a").on('click'   ,function(e){
+	    e.preventDefault();
+        
+	    $('body,html').animate({
+	        scrollTop: $(this.hash).offset().top
+	    }, 800);
+	});
 });
