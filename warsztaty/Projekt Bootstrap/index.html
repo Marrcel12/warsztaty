@@ -12,8 +12,8 @@
 <body>
 
     <header>
-        <nav id="main-nav " class="navbar navbar-expand-lg navbar-light fixed-top ">
-            <a class="navbar-brand" href="#">Bootstrap Project</a>
+        <nav id="main-nav" class="navbar navbar-expand-lg navbar-light fixed-top ">
+            <a class="navbar-brand" href="#main">Bootstrap Project</a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">       
               <span class="navbar-toggler-icon"></span>     
             </button>
@@ -26,7 +26,7 @@
                 </ul>
             </div>
         </nav>
-        <div class="titles">
+        <div id="main" class="titles">
             <h2 class="text-center title1">Num libero tempore</h2>
             <h1 class="text-center text-uppercase">Lorem ipsum dolor.</h1>
             <div class="view-more">view more</div>
@@ -34,7 +34,7 @@
     </header>
     <!--koniec header-->
     <!--Skecja servives-->
-    <section class="services">
+    <section id="services" class="services">
         <h1 class="titleServices text-uppercase text-center">Services</h1>
         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
     </section>
@@ -53,54 +53,194 @@
     </div>
 
 
-<section class="portfolio">
+    <section id="portfolio" class="portfolio">
         <h1 class="titleServices text-uppercase text-center">potrfolio</h1>
         <p class="opisPort">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-        
-        
+
+
         <div class="container-fluid ConServices">
-        <div class="row">
-            <div class="col-sm-4">
-                <div class="mask"><i class="fa fa-plus" aria-hidden="true"></i><p class="pierwszyObrazek obraz"><br/></p></div><p>Lorem ipsum dolor sit amet, </p>
-            </div>
-            <div class="col-sm-4">
-                <div class="mask"><i class="fa fa-plus" aria-hidden="true"></i><p class="drugiObrazek obraz"><br/></p></div><p>Lorem ipsum dolor </p>
-            </div>
-            <div class="col-sm-4 ">
-                <div class="mask"><i class="fa fa-plus" aria-hidden="true"></i><p class="trzeciObrazek obraz"><br/></p></div><p>Lorem ipsum dolor sit amet, !</p>
-            </div>
-        </div>
-        
-        <div class="row">
-            <div class="col-sm-4">
-                <div class="mask"><i class="fa fa-plus" aria-hidden="true"></i></div><p class="czwartyObrazek obraz"><br/></p><p>Lorem ipsum dolor sit </p>
-            </div>
-            <div class="col-sm-4">
-                <div class="mask"><i class="fa fa-plus" aria-hidden="true"></i><p class="piątyObrazek obraz"></p></div><p>Lorem ipsum dolor sit amet, </p>
-            </div>
-            <div class="col-sm-4">
-                <div class="mask"><i class="fa fa-plus" aria-hidden="true"></i><p class="szostyObrazek obraz"></p></div><p>Lorem ipsum dolor !</p>
-            </div>
-        </div>
-    </div>
-    </section>
-    <section class="team">
-       <h1 id="titleTeam" class="text-uppercase">Meet our team</h1>
-       <h3>Lorem ipsum dolor sit.</h3>
-        <div class="container-fluid">
-            
             <div class="row">
-            <div class="col-sm-4"></div>
-            <div class="col-sm-4"></div>
-            <div class="col-sm-4"></div>
-            </div> 
+                <div class="col-sm-6 col-lg-4">
+                    <figure class="portfolio-item">
+                        <div class="porfolio-image">
+                            <div class="portfolio-image-background" id="portfolio-image-background-1">
+                                <div class="portfolio-image-mask">
+                                    <i id="plus" class="fa fa-plus"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </figure>
+                </div>
+                <div class="col-sm-6 col-lg-4">
+                    <figure class="portfolio-item">
+                        <div class="porfolio-image">
+
+                            <div class="portfolio-image-background" id="portfolio-image-background-2">
+                                <div class="portfolio-image-mask">
+                                    <i id="plus" class="fa fa-plus"></i>
+
+                                </div>
+                            </div>
+                        </div>
+                    </figure>
+                </div>
+                <div class="col-sm-6 col-lg-4">
+                    <figure class="portfolio-item">
+                        <div class="porfolio-image">
+                            <div class="portfolio-image-background" id="portfolio-image-background-3">
+                                <div class="portfolio-image-mask">
+                                    <i id="plus" class="fa fa-plus"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </figure>
+                </div>
+                <div class="col-sm-6 col-lg-4">
+                    <figure class="portfolio-item">
+                        <div class="porfolio-image">
+                            <div class="portfolio-image-background" id="portfolio-image-background-4">
+                                <div class="portfolio-image-mask">
+                                    <i id="plus" class="fa fa-plus"></i>
+
+                                </div>
+                            </div>
+                        </div>
+                    </figure>
+                </div>
+                <div class="col-sm-6 col-lg-4">
+                    <figure class="portfolio-item">
+                        <div class="porfolio-image">
+                            <div class="portfolio-image-background" id="portfolio-image-background-5">
+                                <div class="portfolio-image-mask">
+                                    <i id="plus" class="fa fa-plus"></i>
+
+                                </div>
+                            </div>
+                        </div>
+                    </figure>
+                </div>
+                <div class="col-sm-6 col-lg-4">
+                    <figure class="portfolio-item">
+                        <div class="porfolio-image">
+
+                            <div class="portfolio-image-background" id="portfolio-image-background-6">
+                                <div class="portfolio-image-mask">
+                                    <i id="plus" class="fa fa-plus"></i>
+
+                                </div>
+                            </div>
+                        </div>
+                    </figure>
+                </div>
+            </div>
         </div>
     </section>
 
-    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
-    <script src="js/script.js"></script>
+
+
+
+            <section id="team" class="team">
+                <h1 id="titleTeam" class="text-uppercase">Meet our team</h1>
+                <h2>Lorem ipsum dolor sit.</h2>
+               
+                <div class="container picteam">
+                    <div class="row">
+                        <div class="col-sm-4 ">
+                            <div>
+                                <div class="myteam picteam1"></div>
+                                <p class="text-uppercase">Lorem ipsum.</p>
+                                <p>Lorem ipsum dolor</p>
+                                <div class="socialIcon">
+                                    <i class="fa fa-facebook icon"></i>
+                                    <i class="fa fa-twitter icon"></i>
+                                    <i class="fa fa-linkedin icon"></i>
+
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-4 ">
+                            <div>
+                                <div class="myteam picteam2"></div>
+                                <p class="text-uppercase">Lorem ipsum.</p>
+                                <p>Lorem ipsum dolor</p>
+                                <div class="socialIcon">
+                                    <i class="fa fa-facebook icon"></i>
+                                    <i class="fa fa-twitter icon"></i>
+                                    <i class="fa fa-linkedin icon"></i>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-4 ">
+                            <div>
+                                <div class="myteam picteam3"></div>
+                                <p class="text-uppercase">Lorem ipsum.</p>
+                                <p>Lorem ipsum dolor</p>
+                                <div class="socialIcon">
+                                    <i class="fa fa-facebook icon"></i>
+                                    <i class="fa fa-twitter icon"></i>
+                                    <i class="fa fa-linkedin icon"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <p class="discMyteam">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Necessitatibus neque, itaque, iste repudiandae vitae reprehenderit dolore. Lorem ipsum dolor sit amet, consectetur adipisicing. </p>
+            </section>
+            <section id="contact" class="contactUs">
+                <h1 class="text-uppercase">Contat us</h1>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+
+                <div class="container">
+                    <form class="row" action="https://formspree.io/your@email.com" method="POST">
+                        <div class="col-md-6 form-line">
+                            <div class="form-group">
+
+                                <input type="text" class="form-control" name="name" id="name" placeholder=" Enter Name">
+                            </div>
+                            <div class="form-group">
+                                <input type="email" class="form-control" id="exampleInputEmail" name="_replyto" placeholder=" Enter Email">
+                            </div>
+                            <div class="form-group">
+                                <input type="tel" class="form-control" id="telephone" placeholder=" Enter  mobile">
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="textArea form-group">
+                                <textarea class="form-control" id="description" placeholder="Enter Your Message"></textarea>
+                            </div>
+                            <div>
+                                <button id="submit" type="button" value="Send">
+                                    <i class="fa fa-paper-plane" aria-hidden="true">
+                                    </i>Send Message</button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </section>
+            <footer>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-4">
+                            <p class="textfooter text-left">Lorem ipsum.</p>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="socialIcon">
+                                <i class="fa fa-facebook icon"></i>
+                                <i class="fa fa-twitter icon"></i>
+                                <i class="fa fa-linkedin icon"></i>
+
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <p class="textfooter text-right">Lorem ipsum dolor.</p>
+                        </div>
+                    </div>
+                </div>
+            </footer>
+            <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+            <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+            <script src="js/script.js"></script>
 </body>
 
 </html>
