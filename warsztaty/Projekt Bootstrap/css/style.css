@@ -1,0 +1,132 @@
+*{
+    border: 0;
+}
+.navbar-light .navbar-brand,.navbar-light .navbar-nav .nav-link,h1,h2,view-more  {
+    color:  white;
+}
+
+header{
+    background-image: url("../img/header/pictures_on_the_wall.jpg");
+    height: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center top;
+}
+
+.view-more{
+    margin-right:  auto;
+    margin-left:  auto;
+    text-align: center;
+    background-color: aqua;
+    width: 180px;
+    padding: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+    
+}
+.view-more:hover{
+     background-color: white;
+    color: aqua;
+}
+.titles{
+    position: relative;
+    top: 30vh;
+    height: 300px;
+}
+.titleServices{
+    margin-top: 14%;
+    color: black;
+}
+p{
+    color: darkgrey;
+    text-align: center;
+}
+
+.ConServices
+{
+    margin-top: 15vh;
+    margin-bottom: 20vh;
+    
+    
+    
+}
+
+p>.fa{
+    color: white;
+    border-radius: 50%;
+    background-color: aqua;
+    font-size: 60px;    
+    padding: 25px;
+    transition: all 0.8s;
+}
+p>.fa:hover{
+    transform: rotate(360deg);
+    color: aqua;
+    background-color: white;
+    border: 0.5px solid aqua;
+    
+}
+.portfolio{
+    
+    background-color: azure;
+}
+.opisPort{
+    margin-bottom: 10vh;
+}
+.obraz{
+    
+    height: 40vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center bottom;
+    
+}
+.pierwszyObrazek{
+    
+    background-image: url(../img/portfolio/typing_on_laptop.jpg);
+    }
+.drugiObrazek{
+    background-image: url(../img/portfolio/box_of_cookies.jpg);
+        
+}
+.trzeciObrazek{
+    background-image: url(../img/portfolio/chaotic_paint.jpg);
+        
+}
+.czwartyObrazek{
+    background-image: url(../img/portfolio/chestnut_on_bracket.jpg);
+}
+.piątyObrazek{
+    background-image: url(../img/portfolio/child_with_blue_paint.jpg);
+}
+    
+.szostyObrazek{
+    background-image: url(../img/portfolio/typing_on_laptop.jpg);
+    
+}
+
+
+
+.mask{
+    text-align: center;
+    background-color: aqua;
+    
+}
+.mask:hover{
+    opacity: 0.4;
+}
+.fa-plus{
+    position: absolute;
+    top: 40%;
+}    
+.team{
+    height: 100vh;
+}
+#titleTeam{
+    text-align: center;
+    color:  black;
+}
+#titleTeam+h3{
+        text-align: center;
+
+}
