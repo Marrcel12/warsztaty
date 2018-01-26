@@ -3,88 +3,244 @@
 
 <head>
     <meta charset="UTF-8">
-    <title>Portfolio-Marcel Kamiński</title>
+    <title>Portfolio</title>
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/font-awesome/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
     <link rel="stylesheet" href="css/style.css">
-    <link href="https://fonts.googleapis.com/css?family=Lato|Roboto:100,200,300,400,500" rel="stylesheet">
-    <link rel="stylesheet" href="font-awesome-4.7.0/css/font-awesome.min.css">
+
 </head>
 
 <body>
-    <div class="background">
-        <!---Menu -->
-        <nav class="menu">
-            <ul>
-                <li class="menu-item"><a href="#aboutmyself">O mnie</a></li>
-                <li class="menu-item"><a href="#skills">Umiejętności</a></li>
-                <li class="menu-item"><a href="#portfolio">Portfolio</a></li>
-                <li class="menu-item"><a href="#contact">Kontakt</a></li>
+
+    <!-- menu-->
+
+    <nav id="main-nav" class="navbar fixed-top navbar-expand-lg navbar-light">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    		<span class="navbar-toggler-icon"></span>
+  		</button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav  ml-auto w-100 justify-content-end">
+                <li class="nav-item">
+                    <a class="nav-link" href="#about">o mnie</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#skills">umiejętności</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#portfolio">portfolio</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#contact">kontakt</a>
+                </li>
             </ul>
-        </nav>
-        <!--Header-->
-        <header class="title"><span id="name">Marcel</span> <span class="surename">Kamiński</span>
-            <div id="mysel">Front-end Developer</div>
+        </div>
+    </nav>
+   <!--   HEADER START-->
+
+    <header id="header">
+
+        <div class="row">
+
+            <div class="col-sm-12">
+                <h1>Jan <span>Nowak</span></h1>
+                <h2>Front-End Developer</h2>
+
+            </div>
+
+        </div>
+
+    </header>
+    <!--    SECTION 1 START-->
+
+    <section id="about">
+        <div class="row">
+            <div class="col-sm-12 about-header">
+                <h2>O <span>mnie</span></h2>
+            </div>
+            <div class="col-md-6">
+                <img src="img/jan-nowak.jpg" alt="Jan Nowak" class="jan-nowak-image">
+            </div>
+            <div class="col-md-6">
+                <p class="about-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab quibusdam odit distinctio hic, nesciunt, quam ipsa eligendi tempora, atque in nemo, numquam voluptate incidunt saepe dicta architecto fugiat facere inventore. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Porro, eveniet, tempora. Harum illum debitis natus nesciunt vel, enim esse pariatur quo praesentium voluptatibus accusamus reiciendis, ab provident. Sit dicta, inventore. </p>
+            </div>
+        </div>
+    </section>
+
+    <!--    SECTION 2 START-->
+
+    <section id='skills' class="text-center">
+
+        <header class='skills-header'>
+            <h2>Moje <span>umiejętności</span></h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Et omnis est adipisci voluptates deserunt alias consequuntur!</p>
         </header>
-    </div>
-    <!--O mnie-->
-    <section id="aboutmyself">
-        <header><span id="O">O</span><span class="green"> Mnie</span></header>
-        <div class="picture"><img class="MyPhoto" src="img/jan-nowak.jpg" alt="zdjęcie Jana"></div>
-        <article><span class="textAboutMySelf">Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-         Repudiandae dicta quasi labore sapiente eaque aliquid veniam vitae quod, animi quae fugit
-            nostrum fugiat deserunt assumenda, voluptates. Eligendi fugit nostrum alias, placeat soluta, Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vero modi laboriosam, consequatur repudiandae quibusdam perferendis ullam eos officiis doloribus dolorum! Ratione corporis sint, recusandae excepturi adipisci. Aut asperiores aliquam debitis consequatur nostrum iure vero quaerat eveniet totam laudantium quae amet, voluptas unde praesentium, aliquid ad enim, suscipit vel soluta mollitia quod! Recusandae aut est dicta! Facilis nesciunt saepe explicabo at molestias, possimus ab consectetur! Expedita ex vero facilis quidem iste maiores sed voluptatibus labore. Commodi, illum? Reprehenderit, sunt necessitatibus voluptatem sint iure in unde explicabo, similique sed quibusdam accusantium consequatur!
-            facilis, enim non molestiae, amet ipsam tenetur! Quisquam mpore ab iusto vitae at adipisci
-             itaque, voluptates. Suscipit ipsa provident sint aliquid odit voluptate soluta pariatur mollitia minus,</span> </article>
+
+        <div class='container'>
+            <div class='row'>
+                <div class='col-md-3 skills-details'>
+                    <div id="img1"></div>
+                    <div>
+                        <p>HTML5</p>
+                    </div>
+                </div>
+
+                <div class='col-md-3 skills-details'>
+                    <div id="img2"></div>
+                    <div>
+                        <p>CSS3</p>
+                    </div>
+                </div>
+
+                <div class='col-md-3 skills-details'>
+                    <div id="img3"></div>
+                    <div>
+                        <p>JavaScript</p>
+                    </div>
+
+                </div>
+                <div class='col-md-3 skills-details'>
+                    <div id="img4"></div>
+                    <div>
+                        <p>jQuery</p>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
     </section>
-    <section id="skills">
-        <header><span id="Moje">Moje</span> <span class="green">Umiejętności</span></header>
-        <article>
-            <div id="textSkills">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sed quaerat distinctio numquam exercitationem saepe omnis asperiores, aliquam nesciunt tempora ea ut! Eveniet fugit, quo. us, </div>
-        </article>
-        <content id="pictureTechnology">
-            <div class="pic" id="html"><img src="icons/html5.png" alt="html"></div>
-            <div class="pic" id="css3"><img src="icons/css3.png" alt="css3"></div>
-            <div class="pic" id="JavaScript"><img src="icons/js.png" alt="JavaScript"></div>
-            <div class="pic" id="jQuery"><img src="icons/jquery.png" alt="jQuery"></div>
-        </content>
-        <article class="picDescription"> <span class="description" id="htmlDesc">HTML</span> <span class="description" id="css3Desc">CSS3</span> <span class="description" id="JavaScriptDesc">JavaScript</span> <span class="description" id="JQueryDesc">JQuery</span></article>
-    </section>
-    <!--portfolio-->
-    <section id="portfolio">
-        <header id="headerPortfolio"><span>Moje <span class="green">Portfolio</span></span>
+
+
+    <!-- SECTION 3-->
+
+    <section id='portfolio' class="text-center">
+
+        <header class='header-portfolio'>
+            <h2>Moje <span>portfolio</span></h2>
         </header>
-        <div class="picportfolio">
-            <div class="picCv" id="firstpic"><span id="lama">Lama</span><img src="img/portfolio1.jpg" alt="zdjęcie1"></div>
-            <div class="picCv" id="secondpic"><img src="img/portfolio2.jpg" alt="zdjęcie2"></div>
-            <div class="picCv" id="thirthepic"><img src="img/portfolio4.jpg" alt="zdjęcie3"></div>
+
+        <div class='container'>
+            <div class='row'>
+                <div class='col-sm-12 col-md-6 col-lg-4'>
+                    <div class="inner">
+                        <div id="image1">
+                            <div class='overflow'>
+                                <div class='inside-text'>
+
+                                    <h4>Lorem ipsum</h4>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Optio commodi, debitis, repellendus soluta quos neque! Dicta similique laudantium repellendus accusamus sint fugiat voluptate. Voluptatum, vel, nam. Ad debitis nisi tempore repellendus, ex error corporis placeat nam alias quasi facilis animi consequatur culpa ipsum, fuga, iure dolorem doloremque harum id autem dicta expedita obcaecati. Voluptas ipsam officiis, explicabo obcaecati exercitationem fugiat!</p>
+                                    <a href="#"><i class="fa fa-link" aria-hidden="true"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class='col-sm-12 col-md-6 col-lg-4'>
+                    <div class="inner">
+                        <div id="image2">
+                            <div class="overflow">
+                                <div class='inside-text'>
+
+                                    <h4>Lorem ipsum</h4>
+                                    <p>.</p>
+                                    <h5>Wykorzystane technologie:</h5>
+                                    <p>HMTL5, CSS3, RWD, Bootstrap, JavScript,JQuery</p>
+                                    <a href="#"><i class="fa fa-link" aria-hidden="true"></i></a>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class='col-sm-12 col-md-12 col-lg-4'>
+                    <div class="inner">
+                        <div id="image3">
+                            <div class="overflow">
+                                <div class='inside-text'>
+
+                                    <h4>Lorem ipsum</h4>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Labore ab ea quae assumenda repudiandae obcaecati tenetur similique omnis voluptatibus! Molestiae id, omnis optio aut reiciendis maxime soluta odio dolor sequi laborum explicabo quia voluptatibus perspiciatis expedita iure hic error, nam?</p>
+                                    <h5>Wykorzystane technologie:</h5>
+                                    <p>HMTL5, CSS3, RWD, Bootstrap, JavScript,JQuery</p>
+                                    <a href="#"><i class="fa fa-link" aria-hidden="true"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
         </div>
     </section>
-    <!--contact-->
-    <section id="contact">
-        <div id="leftsidecontact">
-        <header id="headerconctact"><span class="name1">Marcel<span class="green">Kamiński</span></span>
-        </header>
-        <div id="contactInfo">
-            <p class="fonts">ul.Mostowa 6/13</p>
-            <p class="fonts">31-061</p>
-            <br/>
-            <p class="fonts">tel.538-106-323</p>
-            <p class="fonts">e-mail: <a href="mailto:marcel72press@gmail.com"> marcel72press@gmail.com</a></p>
-        </div>
-        <div id="socialIcons">
-            <div class="social"><a href="https://www.facebook.com/"><i class="fa fa-facebook" aria-hidden="true"></i></a></div>
-            <div class="social"><a href="https://www.google.com/"><i class="fa fa-google-plus" aria-hidden="true"></i></a></div>
-            <div class="social"><a href="https://twitter.com/"><i class="fa fa-twitter" aria-hidden="true"></i></a></div>
-            <div class="social"><a href="https://pl.linkedin.com/"><i class="fa fa-linkedin" aria-hidden="true"></i></a></div>
-        </div>
-        </div><div id="rightsidecontact">
-            <form action="https://formspree.io/marcel72press@gmail.com" method="post">
-                <input class="pole" type="text" name="ImięInazwisko" id="NS" placeholder="Imię i Nazwisko" required autofocus autocomplete="on"><br/>
-                <input class="pole" type="email" name="_replyto" id="Mail" placeholder="E-mail" required autocomplete="on"><br/>
-                <textarea maxlength="1000" id="Mess" name="Wiadomość" placeholder="Treść wiadomości"></textarea><br/>
-                 <input id="button" type="submit" value="Wyśli"><br/>
-            </form>
+    <!--    SECTION 4 -->
+
+    <section id='form-section'>
+        <div class='container'>
+            <div class='row'>
+                <div class='col-md-6 text-left'>
+                    <div class="address">
+                        <h3>Jan <span>Nowak</span></h3>
+                        <address>
+                            <div>
+                                <p>ul. Mostowa 6/13</p>
+                                <p>31-061 Kraków</p>
+                            </div>
+                            <div>
+                                <p>tel. 606 74 57 59</p>
+                                <p>e-mail: <a class='address-link' href="mailto:example@example.pl">example@example.pl</a></p>
+                            </div>
+                        </address>
+                        <div id="icons">
+                            <a href=""><i class="fa fa-facebook" aria-hidden="true"></i></a>
+                            <a href=""><i class="fa fa-google-plus" aria-hidden="true"></i></a>
+                            <a href=""><i class="fa fa-twitter" aria-hidden="true"></i></a>
+                            <a href=""><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class='col-md-6 form'>
+                    <form action="" class='row' id='contact-form'>
+
+                        <input type="text" id="name-surname" placeholder="Imię i nazwisko">
+
+                        <input type="email" id="email" placeholder="E-mail">
+
+                        <textarea name="message" id="message" cols="30" rows="5" placeholder='Treść wiadomości'>
+                            </textarea>
+
+                        <input type="submit" id="send-button" value="Wyślij">
+
+                    </form>
+                </div>
+            </div>
         </div>
     </section>
+
+    
+    <!--FOOTER-->
+
+    <footer class='text-left' id='footer-text'>
+        <div class='container'>
+            <div class='row'>
+                <div class="col-sm-12 about-header">
+                    <p>Copyright © Jan Nowak</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/jquery-3.2.1.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
+    <script src="bootstrap/js/bootstrap.min.js"></script>
+    <script src="js/main.js"></script>
 </body>
 
 </html>
