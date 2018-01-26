@@ -1,0 +1,7 @@
+button{
+    margin: 10px;
+    
+}
+.btn:hover{
+   content: "BedzieKlikniete";
+}

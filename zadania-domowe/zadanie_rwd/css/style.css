@@ -2,14 +2,14 @@ body {
     margin: 0;
 }
 
-<<<<<<< HEAD
+
 .container {
     height: 100vh;
     background-image: url('man-1.jpg');
     background-size: cover;
     background-repeat: no-repeat;
 }
-=======
+
 	.container{
 		height: 100vh;
 		background-image: url('man-1.jpg');
@@ -25,7 +25,6 @@ body {
 
 	}
 	
->>>>>>> master
 
 .title {
     padding-top: 50vh;
