@@ -1,0 +1,12 @@
+@media (max-width: 809px) {
+  .contact {
+    width: 100%; }
+  .content {
+    left: 45%; } }
+
+@media (max-width: 413px) {
+  .container {
+    position: relative;
+    left: 40vw; }
+  .content {
+    left: 25%; } }
