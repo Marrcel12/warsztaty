@@ -1,0 +1,40 @@
+#services {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 30px;
+    .first-section-header {
+        margin-bottom: 25px;
+        h2 {
+            text-transform: uppercase;
+            font-family: 'Montserrat', sans-serif;
+            p {
+                font-style: italic;
+                font-family: 'Droid Serif', sans-serif;
+            }
+        }
+    }
+    .fa {
+        color: #0ed8d6;
+        text-decoration: none;
+        font-size: 50px;
+        width: 100px;
+        height: 100px;
+        border-radius: 50%;
+        border: 1px solid #0ed8d6;
+        text-align: center;
+        line-height: 100px;
+        transition: all 0.4s;
+        margin-bottom: 10px;
+        &:hover {
+            background-color: #0ed8d6;
+            color: #fff;
+            transform: rotate(360deg);
+        }
+    }
+    h3 {
+        font-size: 1em;
+    }
+}

@@ -1,0 +1,18 @@
+ body {
+        margin: 0;
+        box-sizing: border-box;
+    }
+
+@import '../navigation/navigation';
+
+@import '../header/header';
+
+@import '../services/services';
+
+@import '../portfolio/portfolio';
+
+@import '../team/team';
+
+@import '../form/form';
+
+@import '../footer/footer';

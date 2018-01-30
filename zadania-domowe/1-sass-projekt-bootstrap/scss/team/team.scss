@@ -1,0 +1,65 @@
+#team {
+    padding-top: 30px;
+    .header-team {
+        h2 {
+            text-transform: uppercase;
+            font-family: 'Montserrat', sans-serif;
+        }
+        p {
+            font-style: italic;
+            font-family: 'Droid Serif', sans-serif;
+        }
+    }
+    .team-members {
+        padding-top: 30px;
+    }
+    #team-image-1 {
+        height: 200px;
+        width: 200px;
+        margin: 0 auto;
+        background-image: url(../../img/team/man-1.jpg);
+        background-position: center;
+        background-size: cover;
+        border-radius: 50%;
+    }
+    #team-image-2 {
+        height: 200px;
+        width: 200px;
+        margin: 0 auto;
+        background-image: url(../../img/team/man-2.jpg);
+        background-position: center;
+        background-size: cover;
+        border-radius: 50%;
+    }
+    #team-image-3 {
+        height: 200px;
+        width: 200px;
+        margin: 0 auto;
+        background-image: url(../../img/team/woman-1.jpg);
+        background-position: center;
+        background-size: cover;
+        border-radius: 50%;
+    }
+    .icons {
+        .fa {
+            color: #fff;
+            text-decoration: none;
+            font-size: 20px;
+            width: 50px;
+            height: 50px;
+            border-radius: 50%;
+            text-align: center;
+            line-height: 50px;
+            transition: all 0.4s;
+            background-color: #000;
+            &:hover {
+                background-color: #0ed8d6;
+                color: #fff;
+                transform: rotate(360deg);
+            }
+        }
+    }
+    .under-text {
+        padding-top: 30px;
+    }
+}

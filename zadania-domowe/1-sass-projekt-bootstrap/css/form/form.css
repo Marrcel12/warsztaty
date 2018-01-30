@@ -1,0 +1,50 @@
+#form-section {
+    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../../img/footer/world-map.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+#form-section .header-form {
+    padding-top: 30px;
+    color: #fff;
+}
+
+#form-section .header-form h2 {
+    text-transform: uppercase;
+    font-family: 'Montserrat', sans-serif;
+}
+
+#form-section .header-form p {
+    font-style: italic;
+    font-family: 'Droid Serif', sans-serif;
+}
+
+#form-section #contact-form .form-1 {
+    height: 120px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+#form-section #contact-form input:not([type="submit"]),
+  #form-section #contact-form textarea {
+    width: 100%;
+    border-radius: 5px;
+    color: #000;
+    align-self: stretch;
+}
+
+#form-section #contact-form input[type="submit"] {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-weight: bold;
+    padding: 20px 20px 20px 20px;
+    font-family: 'Droid Serif', sans-serif;
+    color: #fff;
+    text-transform: uppercase;
+    background-color: #0ed8d6;
+    border-style: none;
+    border-radius: 5px;
+    transition: all 0.4s;
+    cursor: pointer;
+}

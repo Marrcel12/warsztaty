@@ -1,0 +1,360 @@
+body {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+#main-nav {
+    background-color: transparent;
+    transition: all 0.4s;
+}
+
+#main-nav .navbar-brand {
+    font-size: 2em;
+    color: #fff;
+    font-family: 'Droid Serif', sans-serif;
+    transition: all 0.4s;
+}
+
+#main-nav .navbar-nav .nav-item .nav-link {
+    text-transform: uppercase;
+    color: #fff;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    transition: all 0.4s;
+}
+
+#main-nav .navbar-brand:hover,
+  #main-nav .nav-link:hover {
+    color: #0ed8d6;
+}
+
+#main-nav.transparent_blue {
+    background-color: rgba(14, 216, 214, 0.75);
+}
+
+#header {
+    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../../img/header/pictures_on_the_wall.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+#header h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-style: italic;
+    color: #fff;
+    margin-bottom: 20px;
+}
+
+#header h1 {
+    font-weight: bold;
+    font-size: 4rem;
+    font-family: 'Droid Serif', sans-serif;
+    color: #fff;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+
+#header .btn {
+    font-weight: bold;
+    padding: 20px 40px 20px 40px;
+    font-family: 'Droid Serif', sans-serif;
+    color: #fff;
+    text-transform: uppercase;
+    background-color: #0ed8d6;
+    border-style: 1px solid #0ed8d6;
+    transition: all 0.4s;
+    cursor: pointer;
+}
+
+#services {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 30px;
+}
+
+#services .first-section-header {
+    margin-bottom: 25px;
+}
+
+#services .first-section-header h2 {
+    text-transform: uppercase;
+    font-family: 'Montserrat', sans-serif;
+}
+
+#services .first-section-header h2 p {
+    font-style: italic;
+    font-family: 'Droid Serif', sans-serif;
+}
+
+#services .fa {
+    color: #0ed8d6;
+    text-decoration: none;
+    font-size: 50px;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    border: 1px solid #0ed8d6;
+    text-align: center;
+    line-height: 100px;
+    transition: all 0.4s;
+    margin-bottom: 10px;
+}
+
+#services .fa:hover {
+    background-color: #0ed8d6;
+    color: #fff;
+    transform: rotate(360deg);
+}
+
+#services h3 {
+    font-size: 1em;
+}
+
+#portfolio {
+    background-color: #f7f7f7;
+    padding-top: 30px;
+}
+
+#portfolio .header-portfolio h2 {
+    text-transform: uppercase;
+    font-family: 'Montserrat', sans-serif;
+}
+
+#portfolio .header-portfolio p {
+    font-style: italic;
+    font-family: 'Droid Serif', sans-serif;
+}
+
+#portfolio .inner {
+    overflow: hidden;
+}
+
+#portfolio .inner #image1 {
+    height: 300px;
+    background-image: url(../../img/portfolio/box_of_cookies.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+#portfolio .inner #image2 {
+    height: 300px;
+    background-image: url(../../img/portfolio/chaotic_paint.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+#portfolio .inner #image3 {
+    height: 300px;
+    background-image: url(../../img/portfolio/chestnut_on_bracket.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+#portfolio .inner #image4 {
+    height: 300px;
+    background-image: url(../../img/portfolio/child_with_blue_paint.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+#portfolio .inner #image5 {
+    height: 300px;
+    background-image: url(../../img/portfolio/house_with_blue_doors.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+#portfolio .inner #image6 {
+    height: 300px;
+    background-image: url(../../img/portfolio/typing_on_laptop.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+#portfolio .overflow {
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(14, 216, 214, 0.75);
+    transition: all 0.4s;
+}
+
+#portfolio .overflow:hover {
+    opacity: 1;
+}
+
+#portfolio .container h4 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    padding-top: 30px;
+}
+
+#portfolio .container p {
+    font-family: 'Droid Serif', sans-serif;
+    font-style: italic;
+}
+
+#team {
+    padding-top: 30px;
+}
+
+#team .header-team h2 {
+    text-transform: uppercase;
+    font-family: 'Montserrat', sans-serif;
+}
+
+#team .header-team p {
+    font-style: italic;
+    font-family: 'Droid Serif', sans-serif;
+}
+
+#team .team-members {
+    padding-top: 30px;
+}
+
+#team #team-image-1 {
+    height: 200px;
+    width: 200px;
+    margin: 0 auto;
+    background-image: url(../../img/team/man-1.jpg);
+    background-position: center;
+    background-size: cover;
+    border-radius: 50%;
+}
+
+#team #team-image-2 {
+    height: 200px;
+    width: 200px;
+    margin: 0 auto;
+    background-image: url(../../img/team/man-2.jpg);
+    background-position: center;
+    background-size: cover;
+    border-radius: 50%;
+}
+
+#team #team-image-3 {
+    height: 200px;
+    width: 200px;
+    margin: 0 auto;
+    background-image: url(../../img/team/woman-1.jpg);
+    background-position: center;
+    background-size: cover;
+    border-radius: 50%;
+}
+
+#team .icons .fa {
+    color: #fff;
+    text-decoration: none;
+    font-size: 20px;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 50px;
+    transition: all 0.4s;
+    background-color: #000;
+}
+
+#team .icons .fa:hover {
+    background-color: #0ed8d6;
+    color: #fff;
+    transform: rotate(360deg);
+}
+
+#team .under-text {
+    padding-top: 30px;
+}
+
+#form-section {
+    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../../img/footer/world-map.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+#form-section .header-form {
+    padding-top: 30px;
+    color: #fff;
+}
+
+#form-section .header-form h2 {
+    text-transform: uppercase;
+    font-family: 'Montserrat', sans-serif;
+}
+
+#form-section .header-form p {
+    font-style: italic;
+    font-family: 'Droid Serif', sans-serif;
+}
+
+#form-section #contact-form .form-1 {
+    height: 120px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+#form-section #contact-form input:not([type="submit"]),
+  #form-section #contact-form textarea {
+    width: 100%;
+    border-radius: 5px;
+    color: #000;
+    align-self: stretch;
+}
+
+#form-section #contact-form input[type="submit"] {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-weight: bold;
+    padding: 20px 20px 20px 20px;
+    font-family: 'Droid Serif', sans-serif;
+    color: #fff;
+    text-transform: uppercase;
+    background-color: #0ed8d6;
+    border-style: none;
+    border-radius: 5px;
+    transition: all 0.4s;
+    cursor: pointer;
+}
+
+#footer-text {
+    font-family: 'Droid Serif', sans-serif;
+    padding-top: 30px;
+}
+
+#footer-text .icons-footer .fa {
+    color: #fff;
+    text-decoration: none;
+    font-size: 20px;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 50px;
+    transition: all 0.4s;
+    background-color: #000;
+}
+
+#footer-text .icons-footer .fa:hover {
+    background-color: #0ed8d6;
+    color: #fff;
+    transform: rotate(360deg);
+}
+
+#footer-text .list ul li {
+    display: inline-block;
+    list-style: none;
+    padding: 20px;
+}

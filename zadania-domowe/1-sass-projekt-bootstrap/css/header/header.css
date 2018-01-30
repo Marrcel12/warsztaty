@@ -1,0 +1,39 @@
+#header {
+    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../../img/header/pictures_on_the_wall.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+#header h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-style: italic;
+    color: #fff;
+    margin-bottom: 20px;
+}
+
+#header h1 {
+    font-weight: bold;
+    font-size: 4rem;
+    font-family: 'Droid Serif', sans-serif;
+    color: #fff;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+
+#header .btn {
+    font-weight: bold;
+    padding: 20px 40px 20px 40px;
+    font-family: 'Droid Serif', sans-serif;
+    color: #fff;
+    text-transform: uppercase;
+    background-color: #0ed8d6;
+    border-style: 1px solid #0ed8d6;
+    transition: all 0.4s;
+    cursor: pointer;
+}
