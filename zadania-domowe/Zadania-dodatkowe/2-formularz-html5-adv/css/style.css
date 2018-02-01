@@ -9,6 +9,19 @@
 #title> h2{
     color: #ab9df7;
 }
+#customerInfo{
+    width: 70vw;
+}
 .tabela {
 margin-left: 58px;
+}
+input[type="submit"]{
+    margin-top: 0.5%;
+    border-radius: 2%;
+}
+#Quantity{
+    width: 150px;
+}
+input[list="books"]{
+    margin-left: 50px;
 }

@@ -14,29 +14,32 @@
         <h2>Form Fundamentals</h2>
     </div>
     <div id="customerInfo">
-        <form action="https://formspree.io/marcel72press@gmail.com" method="post">
+        <form action="https://formspree.io/marcel72press@gmail.com" method="post" autocomplete="on">
             <fieldset>
                 <legend>Customer Info</legend><br>
                 <!-- Imię-->
-                <div class="tabela"> Name: <input type="text" name="Imię" id="imię" placeholder="Enter your name" required autofocus autocomplete="on"></div>
+                <div class="tabela"> Name: <input type="text" name="Imię" id="Name" placeholder="Enter your name" required autofocus></div>
                 <br/>
                 <!--Numer Telefonu-->
-                <div class="tabela"> Telephone: <input type="Tel" name="Telefon" id="Tel" placeholder="Pattern 1-234-567-8910" required autofocus pattern="d-ddd-ddd-dddd" autocomplete="on">
+                <div class="tabela"> Telephone: <input type="tel" name="Telefon" id="Tel" placeholder="Pattern 1-234-567-8910" required pattern="[0-9]-[0-9][0-9][0-9]-[0-9][0-9][0-9]-[0-9][0-9][0-9][0-9]">
                 </div><br/>
                 <!--Mail-->
-                <div class="tabela"> Email address <input type="email" name="_replyto" id="Mail" placeholder="Enter your email address" required autocomplete="on"></div>
+                <div class="tabela"> Email address <input type="email" name="_replyto" id="Mail" placeholder="Enter your email address" required></div>
                 <br/>
             </fieldset>
-        </form>
-    </div>
-    <div id="Books">
-        <!--tytuł książki -->
-        <form action="https://formspree.io/marcel72press@gmail.com" method="post">
+            <!--tytuł książki -->
             <fieldset>
                 <legend>Books</legend><br/>
-                <input type="text" name="ksiązka" id="Books" autocomplete="on">
+                <input list="books" name="ksiązka">
+                <datalist id="books">
+                  <option value="HarryPotter">
+                  <option value="WładcaPierścienia">
+                  <option value="This">
+                  <option value="TomekNaCzarnymLądzie">
+                  <option value="PoradnikWebMastera">
+                </datalist>
                 <!--ilość książek-->
-                Quantity (Maximum 5):<input type="number" pattern="d" min=1 max=5 name="ilość ksiązek" id="Quantity">
+                Quantity (Maximum 5):<input type="number" min=1 max=5 name="ilość ksiązek" id="Quantity">
             </fieldset>
             <input type="submit" value="Submit"><br/>
         </form>
