@@ -16,6 +16,7 @@ function obecnySell() {
 $(function () {
 
     $("input").click(function () {
+        
         var buy = obecnyBuy();
         var sell = obecnySell();
         $.getJSON('https://blockchain.info/pl/ticker', function (data) {
